@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>HCDS 2025</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/menu.js"></script>
+  <style>
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="menu-container" id="home"></div>
+  <div class="content-container">
+    <div class="site-blocks-cover overlay inner-page-cover" style="background-image: url('img/banner.jpg');"
+      data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-10 text-center" data-aos="fade-up">
+            <h1>4th Workshop on Heterogeneous Composable and Disaggregated Systems</h1>
+            <h2>Co-located with ASPLOS/EUROSYS 2025</h2>
+            <h2>Rotterdam, Netherlands</h2>
+            <h2>March 30 - April 3, 2025</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Workshop Overview</h2>
+          </div>
+        </div>
+
+        <!-- ABSTRACT -->
+        <div class="flex-row" style="scroll-margin-top: 200px" id="overview">
+          <div class="flex-item flex-column">
+            <h4 class="add-top-margin add-bottom-margin">Abstract</h4>
+          </div>
+          <div class="flex-item flex-column">
+            <p class="text text-justify">The future of computing systems is inevitably embracing a disaggregated and
+              composable pattern: from clusters of computers to pools of resources that can be dynamically combined
+              together and tailored around application requirements.
+              With new interconnects for interfacing CPU, memory and peripherals becoming a commodity (e.g., CXL),
+              disaggregation and composability in computer systems is expected to become a predominant design pattern.
+              This paradigm change increases the level of heterogeneity from what is possible with statically defined
+              servers to software-defined dynamically composed servers, resulting in an increased memory and
+              accelerators capacity/availability and improved resource utilization in a cost-effective way, reducing the
+              overall total cost of ownership.
+              This new class of systems, that we term Heterogeneous and Composable Disaggregated Systems (HCDS),
+              provide a system design approach for reducing the imbalance between workloads resource requirements and
+              the static availability of resources in a computing system, while making room for novel distributed system
+              approaches in processes communication and data exchange.
+              <br>
+              The HCDS workshop aims at exploring the novel research ideas around composable disaggregated systems and
+              their integration with operating systems and software runtimes to maximize the benefit perceived from user
+              workloads.
+
+            <p>
+          </div>
+        </div>
+
+        <!-- IMPORTANT DATES -->
+        <hr>
+        <div class="flex-row add-top-margin add-bottom-margin" style="scroll-margin-top: 200px" id="dates">
+          <div class="flex-item flex-column">
+            <h2>Important Dates</h2>
+          </div>
+        </div>
+
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text text-justify">These dates are tentative and may still change.</p>
+            <ul>
+              <li><span class="highlight-text">Paper submission deadline: </span>January 20 2025 (AoE)</li>
+              <li>Author notification: February 10 2025 (AoE)</li>
+              <li>Camera ready submissions: February 15 2025 (AoE)</li>
+              <li>Workshop: TBA</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- CFP -->
+        <hr>
+        <div class="flex-row add-top-margin add-bottom-margin" style="scroll-margin-top: 200px" id="cfp">
+          <div class="flex-item flex-column">
+            <h2>Call for Papers</h2>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            Heterogeneous and Composable Disaggregated Systems (HCDS), provide a system design approach for reducing the
+            imbalance between workloads resource requirements and the static availability of resources in a computing
+            system, while making room for novel distributed system approaches in processes communication and data
+            exchange.
+            <br>
+            The HCDS workshop aims at exploring the novel research ideas around composable disaggregated systems and
+            their integration with operating systems and software runtimes to maximize the benefit perceived from user
+            workloads.
+            <br><br>
+            Papers are solicited from the areas, including, but not limited to:
+            <div class="flex-row">
+              <div class="flex-item flex-column add-top-margin">
+                <h4>Hardware and Prototyping</h4>
+                <ul>
+                  <li>Novel composable systems architectures (e.g., CXL based)</li>
+                  <li>Composable system prototypes and proof-of-concept</li>
+                  <li>Interconnect technologies (such as CXL)</li>
+                  <li>Memory pooling, and memory disaggregation</li>
+                </ul>
+
+                <h4>Modeling and Evaluation</h4>
+                <ul>
+                  <li>Heterogeneous Composable Systems simulation</li>
+                  <li>Characterization of heterogeneous composable systems from the perspective of performance, energy
+                    consumption and reliability</li>
+                  <li>New algorithms and performance models to manage and use HCDS</li>
+                  <li>Memory pooling, and memory disaggregation</li>
+                </ul>
+
+                <h4>System software and programming models/tools</h4>
+                <ul>
+                  <li>Operating system designs to support HCDS, such as memory profiling methods, memory management
+                    (e,g, page migration and allocation)</li>
+                  <li>Control plane software and runtime systems for management of composable systems</li>
+                  <li>Programming models for heterogeneous composable memory</li>
+                  <li>Analysis / profiling tools and techniques for composable systems</li>
+                  <li>Virtualization for composable heterogeneous systems</li>
+                </ul>
+
+                <h4>Applications and Use cases</h4>
+                <ul>
+                  <li>Use cases for heterogeneous composable systems, such as (but not limited to) deep-learning
+                    inference/training and scientific applications</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-row">
+            <div class="flex-item flex-column add-top-margin">
+              <p class="text">
+              <h3>Submission Instructions</h3>
+              </p>
+
+              <p class="text">Each manuscript will be evaluated with a <span class="highlight-text">double-blind review
+                  process</span>. Authors must omit at submission time their names or any information that can disclose
+                their identity. Manuscripts length must be <span class="highlight-text">4-6 pages including figures and
+                  tables but excluding references</span>. All manuscripts must use the <i>sigplan</i> <a
+                  href="https://www.acm.org/publications/proceedings-template">ACM conference style</a>. It is also
+                expected that all accepted papers will be presented at the workshop by one of the authors.
+                <br>
+
+                <span class="highlight-text">The organization committee is working for getting proceedings published in
+                  the ACM Digital library. More
+                  details to follow soon.</span>
+                <br>
+                <br>
+              <h5>Submission link: COMING SOON</h5>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- PROGRAM -->
+        <hr>
+        <div class="flex-row add-top-margin add-bottom-margin" id="program" style="scroll-margin-top: 200px">
+          <div class="flex-item flex-column">
+            <h2>Workshop Program</h2>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+
+            COMING SOON
+
+          </div>
+        </div>
+
+        <!-- COMMITTES -->
+        <hr>
+        <div class="flex-row add-top-margin add-bottom-margin" id="committees" style="scroll-margin-top: 200px">
+          <div class="flex-item flex-column">
+            <h2>Committees</h2>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text">
+            <h4>Organizing Committee</h4>
+            </p>
+            <ul>
+              <li>Christian Pinto (IBM Research Europe, Ireland)</li>
+              <li>Dong Li (UC Merced, CA, USA)</li>
+              <li>Thaleia Dimitra Doudali (IMDEA Software Institute, Spain)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text">
+            <h4>Program Co-Chairs</h4>
+            </p>
+            <ul>
+              <li>Christina Giannoula (University of Toronto, Canada)</li>
+              <li>Jie Ren (William & Mary, VA, USA)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text">
+            <h4>Program Committee</h4>
+            </p>
+            TBA
+          </div>
+        </div>
+
+        <!-- PAST EDITIONS -->
+        <hr>
+        <div class="flex-row" id="past" style="scroll-margin-top: 200px">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin add-bottom-margin">Past Editions</h2>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <ul>
+              <li><a href="https://hcds-workshop.github.io/hcds24">
+                  <h5>HCDS 2024</h5>
+                </a></li>
+              <li><a href="https://hcm-workshop.github.io/">
+                  <h5>HCM 2023</h5>
+                </a></li>
+              <li><a href="https://compsysworkshop.github.io/compsys23">
+                  <h5>COMPSYS 2023</h5>
+                </a></li>
+              <li><a href="https://compsysworkshop.github.io/compsys22">
+                  <h5>COMPSYS 2022</h5>
+                </a></li>
+            </ul>
+          </div>
+        </div>
+
+
+
+        <!-- CONTACTS -->
+        <hr>
+        <div class="flex-row" id="Contacts" style="scroll-margin-top: 200px">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin add-bottom-margin">Contacts</h2>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text">Email Us: hcdsworkshop[at]gmail[dot]com</a> for any question.</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
